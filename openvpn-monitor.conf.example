@@ -10,5 +10,11 @@ datetime_format=%d/%m/%Y %H:%M:%S
 [VPN1]
 host=localhost
 port=5555
-name=Staff VPN
-show_disconnect=False
+name=TCP VPN
+show_disconnect=True
+
+[VPN2]
+host=localhost
+port=5556
+name=UDP VPN
+show_disconnect=True
